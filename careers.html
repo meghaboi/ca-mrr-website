@@ -70,15 +70,109 @@
 
     <section class="section section-light">
       <div class="container career-grid">
-        <article class="panel reveal">
+        <article id="articleship-app" class="panel reveal">
           <h2 class="section-title">Start Your CA Journey With Us</h2>
           <p>Articleship is available across Imphal, Hyderabad, and Ballari under ICAI guidelines. Trainees work directly on banking audits, corporate taxation, compliance, and FEMA assignments.</p>
-          <a class="btn btn-gold" href="mailto:careers@camrr.co.in?subject=Articleship%20Application%20-%20MRR%20and%20Associates">Apply for Articleship →</a>
+          <form class="mini-form" action="https://formsubmit.co/pamidiramarao@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Articleship Application - M R R & Associates">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="https://camrr.co.in/thank-you.html">
+            <div class="row">
+              <div>
+                <label for="article-name">Full Name</label>
+                <input id="article-name" name="Full Name" type="text" required>
+              </div>
+              <div>
+                <label for="article-email">Email</label>
+                <input id="article-email" name="Email" type="email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="article-phone">Phone</label>
+                <input id="article-phone" name="Phone" type="tel" required>
+              </div>
+              <div>
+                <label for="article-office">Preferred Office</label>
+                <select id="article-office" name="Preferred Office" required>
+                  <option value="">Select office</option>
+                  <option>Imphal</option>
+                  <option>Hyderabad</option>
+                  <option>Ballari</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="article-stage">CA Level</label>
+              <select id="article-stage" name="CA Level" required>
+                <option value="">Select level</option>
+                <option>CA Inter - Group 1 cleared</option>
+                <option>CA Inter - Both groups cleared</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="article-message">Message</label>
+              <textarea id="article-message" name="Message" placeholder="Include your attempt details, joining availability, and strengths." required></textarea>
+            </div>
+            <button class="btn btn-gold" type="submit">Apply for Articleship -></button>
+            <p class="fine">Submissions go directly to our careers inbox.</p>
+          </form>
         </article>
-        <article class="panel reveal">
+        <article id="join-team-app" class="panel reveal">
           <h2 class="section-title">Join Our Team</h2>
           <p>We are hiring semi-qualified CAs, audit assistants, and tax associates who want to grow in a firm that handles complex and high-accountability work.</p>
-          <a class="btn btn-outline" href="mailto:careers@camrr.co.in?subject=Resume%20-%20MRR%20and%20Associates">Send Your Resume →</a>
+          <form class="mini-form" action="https://formsubmit.co/pamidiramarao@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Job Application - M R R & Associates">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="https://camrr.co.in/thank-you.html">
+            <div class="row">
+              <div>
+                <label for="job-name">Full Name</label>
+                <input id="job-name" name="Full Name" type="text" required>
+              </div>
+              <div>
+                <label for="job-email">Email</label>
+                <input id="job-email" name="Email" type="email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="job-phone">Phone</label>
+                <input id="job-phone" name="Phone" type="tel" required>
+              </div>
+              <div>
+                <label for="job-role">Role</label>
+                <select id="job-role" name="Role Applied For" required>
+                  <option value="">Select role</option>
+                  <option>Semi-qualified CA</option>
+                  <option>Audit Assistant</option>
+                  <option>Tax Associate</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="job-exp">Experience</label>
+                <input id="job-exp" name="Experience" type="text" placeholder="Example: 2 years in tax and audit">
+              </div>
+              <div>
+                <label for="job-resume">Resume Link</label>
+                <input id="job-resume" name="Resume Link" type="url" placeholder="https://drive.google.com/...">
+              </div>
+            </div>
+            <div>
+              <label for="job-message">Message</label>
+              <textarea id="job-message" name="Message" placeholder="Mention notice period, current CTC, and preferred location." required></textarea>
+            </div>
+            <button class="btn btn-outline-dark" type="submit">Send Your Resume -></button>
+            <p class="fine">This form sends directly to our hiring mailbox.</p>
+          </form>
         </article>
       </div>
     </section>
