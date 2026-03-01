@@ -489,6 +489,58 @@ body.nav-open .overlay-nav a{opacity:1;transform:none}
   background:var(--gold-400);
 }
 
+.quick-links-grid{
+  display:grid;
+  gap:1rem;
+}
+
+.quick-links-panel{
+  background:rgba(255,255,255,.8);
+}
+
+.quick-links-list{
+  list-style:none;
+  margin:1.1rem 0 0;
+  padding:0;
+  display:grid;
+  gap:.72rem;
+}
+
+.quick-links-list a{
+  min-height:48px;
+  display:flex;
+  align-items:center;
+  color:var(--slate-900);
+  border:1px solid rgba(28,35,51,.16);
+  background:#fff;
+  border-radius:12px;
+  padding:.64rem .88rem;
+  font-family:"DM Mono",monospace;
+  font-size:clamp(.72rem,.14vw + .7rem,.82rem);
+  letter-spacing:.04em;
+}
+
+.quick-links-list a:hover{
+  border-color:var(--gold-400);
+}
+
+.ca-logo-panel{
+  background:rgba(13,17,23,.94);
+  color:var(--text-muted);
+  display:grid;
+  align-content:start;
+  gap:.75rem;
+}
+
+.ca-logo-panel .eyebrow{
+  margin:0;
+}
+
+.ca-logo{
+  width:min(100%,280px);
+  height:auto;
+}
+
 .tags{
   margin-top:1.2rem;
   display:flex;
@@ -624,6 +676,7 @@ input:focus,textarea:focus,select:focus{
 @media (min-width:768px){
   .about-grid{grid-template-columns:1.1fr .9fr;gap:1.5rem}
   .services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .quick-links-grid{grid-template-columns:1.15fr .85fr}
   .career-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .office-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .form-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
