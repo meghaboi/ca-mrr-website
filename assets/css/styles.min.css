@@ -630,6 +630,10 @@ input:focus,textarea:focus,select:focus{
   color:var(--slate-900);
 }
 
+.career-grid .mini-form label{
+  color:var(--slate-800);
+}
+
 .section-light input,
 .section-light textarea,
 .section-light select,
@@ -668,6 +672,17 @@ input:focus,textarea:focus,select:focus{
   padding-top:1rem;
   color:var(--text-muted);
   font-size:clamp(.82rem,.2vw + .78rem,.9rem);
+}
+
+.copyright a{color:var(--cream)}
+
+.copyright-separator{
+  display:inline-block;
+  width:1px;
+  height:.9em;
+  margin:0 .55rem;
+  background:rgba(245,235,224,.45);
+  transform:translateY(.08em);
 }
 
 .reveal{opacity:0;transform:translateY(30px)}
